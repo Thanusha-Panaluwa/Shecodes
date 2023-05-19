@@ -1,0 +1,27 @@
+.all {
+  text-align: center;
+  background-color: aqua;
+}
+.second {
+  border: grey 0.5px solid;
+  border-top: 10px;
+}
+
+.table {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-bg-light {
+  padding: 20px;
+  width: 700px;
+  border-left: 300px;
+  border-right: 300px;
+  border-radius: 10px;
+  box-shadow: 5px black;
+  margin: 0 auto;
+}
+
+#piechart {
+  box-align: center;
+}
