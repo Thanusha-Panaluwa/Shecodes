@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/082/951/original/pexels-shehryar-noor-15625326.jpg?1684895760");
+}
+
+.inside {
+  margin: 0 auto;
+  border-radius: 10;
+}
+.set {
+  padding: 25px 20px 20px 20px;
+  margin: 0 auto;
+  opacity: default;
+  background-color: rgb(0, 0, 0, 0.2);
+  width: 550px;
+  margin-top: 70px;
+  text-align: center;
+}
+#search {
+  border-radius: 15px;
+  padding: 7px;
+  text-decoration-color: black;
+}
+
+#location {
+  border-radius: 15px;
+  padding: 7px;
+  text-decoration-color: black;
+}
+
+#input {
+  text-align: center;
+}
+
+h4 {
+  padding: 10px;
+}
+.temp {
+  width: 500px;
+}
