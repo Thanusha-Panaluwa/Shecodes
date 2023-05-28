@@ -63,7 +63,7 @@ function showPosition(position) {
   let longi = position.coords.longitude;
   //alert(longi);
 
-  let apikey = "510692d3097f9d7a6300e39843c365cd";
+  let apikey = " "; //add your weather API here
   let apiLocation = `https://api.openweathermap.org/data/2.5/weather?lat=${lati}&lon=${longi}&appid=${apikey}`;
   // let apiLocation = `https://api.openweathermap.org/data/2.5/weather?id=524901&lang=fr&appid=${apikey}`;
   axios.get(apiLocation).then(showTemperature);
